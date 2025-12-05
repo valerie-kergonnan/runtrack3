@@ -39,10 +39,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // Ajouter le contenu
         const content = document.getElementById('content');
         content.innerHTML = `
-            <h1>Bienvenue sur La Plateforme_</h1>
+            <h1>Bienvenue sur La Plateforme</h1>
             <p>Code Konami activé avec succès !</p>
         `;
         
-        console.log("🎮 Code Konami activé ! Bienvenue sur La Plateforme_ !");
+        console.log("🎮 Code Konami activé ! Bienvenue sur La Plateforme !");
     }
 });
