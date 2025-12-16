@@ -34,7 +34,7 @@ $(document).ready(function() {
         }
     ];
 
-    // 1. Bouton papillon - Modale
+    // 1. Bouton papillon 
     $('#btnPapillon').click(function() {
         $('#papillonModal').modal('show');
     });
