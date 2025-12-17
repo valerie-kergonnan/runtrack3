@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class=" deep-orange lighten-2">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo">Chez vous</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Inscription</a></li>
+                    <li><a href="index.html">Connexion</a></li>
+                    <li><a href="index.html">Rechercher</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="container">
+
+            <h1 class="center-align">Creation de compte</h1>
+
+            <form action="index.html" method="post" class="col s12">
+
+                <div class="row">
+                    <div class="col s12">
+                        <p>Civilite :</p>
+                        <p>
+                            <label>
+                                <input class="with-gap" type="radio" name="Civilite" value="Madame">
+                                <span>Madame</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input class="with-gap" type="radio" name="Civilite" value="Monsieur">
+                                <span>Monsieur</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+
+                <!--texte-->
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="prenom" type="text" name="Prenom" class="validate">
+                        <label for="prenom">Prenom</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">badge</i>
+                        <input id="nom" type="text" name="Nom" class="validate">
+                        <label for="nom">Nom</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">home</i>
+                        <input id="adresse" type="text" name="Adresse" class="validate">
+                        <label for="adresse">Adresse</label>
+                    </div>
+                </div>
+
+                <!-- mdp -->
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="password" type="password" name="password" class="validate">
+                        <label for="password">Mot de passe</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="password_confirm" type="password" name="password_confirm" class="validate">
+                        <label for="password_confirm">Confirmer mot de passe</label>
+                    </div>
+                </div>
+
+                <!--passions-->
+                <div class="row">
+                    <div class="col s12">
+                        <p>Passions :</p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="passion" value="Sport">
+                                <span>Sport</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="passion" value="Lecture">
+                                <span>Lecture</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="passion" value="Voyage">
+                                <span>Voyage</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="passion" value="Informatique">
+                                <span>Informatique</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+
+                <!--bouton-->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <button class="btn waves-effect waves-light deep-orange lighten-2" type="submit" name="action">
+                            Envoyer
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="page-footer deep-orange lighten-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12">
+                    <ul class="center-align">
+                        <li class="inline"><a class="white-text" href="index.html">Accueil</a></li>
+                        <li class="inline"><a class="white-text" href="index.html">Inscription</a></li>
+                        <li class="inline"><a class="white-text" href="index.html">Connexion</a></li>
+                        <li class="inline"><a class="white-text" href="index.html">Rechercher</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                © 2025 fait avec <span class="red-text">♥</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
