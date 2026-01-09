@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>o'clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1> horloge</h1>
+
+    <section id="timer">
+        <h2>Minuteur</h2>
+        <input type="number" id="minutes" placeholder="Minutes">
+        <input type="number" id="seconds" placeholder="Secondes">
+        <button id="start-timer">Démarrer le minuteur</button>
+        <div id="timer-display">00:00</div>
+        </section>
+
+        <section id ="chronometre">
+            <h2>Chronomètre</h2>
+            <button id="start-chronometer">Démarrer le chronomètre</button>
+            <button id="stop-chronometer">Arrêter le chronomètre</button>
+            <button id="reset-chronometer">Réinitialiser le chronomètre</button>
+            <div id="chronometer-display">00:00:00</div>
+        </section>
+
+        <section id="alarm">
+            <h2>Alarme</h2>
+            <input type="time" id="alarm-time">
+            <button id="set-alarm">Régler l'alarme</button>
+            <div id="alarm-status">Aucune alarme réglée</div>
+        </section>
+
+        <section id="world-clock">
+            <h2>Horloge mondiale</h2>
+            <select id="timezones">
+                <option value="Europe/Paris">Paris</option>
+                <option value="America/New_York">New York</option>
+                <option value="Asia/Tokyo">Tokyo</option>
+                <option value="Australia/Sydney">Sydney</option>
+            </select>
+            <div id="world-clock-display">00:00:00</div>
+        </section>
+
+        <section>
+            <h2>Horloge locale</h2>
+            <div id="local-clock-display">00:00:00</div>
+        </section>
+
+        <section id="date-time">
+            <h2>Date et Heure</h2>
+            <div id="date-time-display">JJ/MM/AAAA HH:MM:SS</div>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
